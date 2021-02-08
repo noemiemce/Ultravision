@@ -68,12 +68,11 @@ h1 {
 }
 
 .entete__subtitle{
-  margin-top: 6px;
-  margin-bottom: 5px;
+  margin: auto;
   font-size: 38px;
   font-weight: 900;
   color: #ffffff;
-  text-align: right;
+  text-align: center;
   font-family: 'Poppins';
 }
 
@@ -81,13 +80,145 @@ h1 {
   margin: 8px 0;
 }
 
-h2 {
+h2{
   margin-top: 64px;
   margin-bottom: 64px;
   font-size: 40px;
   text-align: center;
   font-family: Poppins;
 }
+
+.block{
+margin-bottom: 100px;
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.colonne{
+justify-content: space-between;
+max-width: 700px;
+}
+
+.colonnedroite1{
+  flex-basis: 0;
+  flex-grow: 1;
+  display: block;
+  float: right;
+  margin-top: -500px;
+}
+
+.ecran1{
+  width: 487px;
+  height: 471px;
+  margin-left: 220px;
+  object-fit: contain;
+  position: absolute;
+  mix-blend-mode: darken;
+}
+
+.fond1{
+  width: 720px;
+  height: 512px;
+  margin: 0 0 0 32px;
+}
+
+.titre-colonne1{
+  width: 640px;
+  height: 33px;
+  margin: 0 31px 34px 0;
+  font-size: 24px;
+  text-align: center;
+  font-family: Poppins;
+}
+
+p{
+  font-family: Poppins;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.paragraphe1{
+  width: 640px;
+  height: 345px;
+  margin: 34px 31px 30px 0;
+}
+
+.bouton1{
+  margin-left: 450px;
+  width: 113px;
+  height: 28px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #fcce00;
+}
+
+.cadre1{
+  width: 185px;
+  height: 48px;
+  padding: 10px 36px;
+  border-radius: 15px;
+  border: solid 4px #fcce00;
+}
+
+.ecran2{
+  width: 378px;
+  height: 486px;
+  margin-left: 100px;
+  object-fit: contain;
+  position: absolute;
+  mix-blend-mode: darken;
+}
+
+
+.fond2{
+  width: 720px;
+  height: 512px;
+  margin: 0 33px 0 0;
+}
+
+
+.colonnedroite2{
+  width: 654px;
+height: 66px;
+margin-top: -450px;
+font-family: Poppins;
+font-size: 24px;
+float: right;
+}
+
+.paragraphe2{
+  float: right;
+  display: block;
+  width: 640px;
+   height: 184px;
+   margin: 32px 14px 32px 32px;
+}
+
+
+.bouton2{
+  width: 113px;
+  height: 28px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #ff6b00;
+
+}
+
+.cadre2{
+  width: 185px;
+ height: 48px;
+ margin: 32px 14px 150px 487px;
+ padding: 10px 36px;
+ margin-left: 420px;
+ border-radius: 15px;
+  border: solid 4px #ff6b00;
+}
+
+
 
 h3 {
   /* Default font, size, and margins */
