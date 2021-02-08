@@ -4,6 +4,47 @@
 * Global Styles
 * -------------
 */
+.rectangle_jaune{
+    width: 1440px;
+    height: 128px;
+    margin: 0 0 8px;
+    padding: 0 416px 5px 418px;
+    opacity: 0.81;
+    background-color: #fcce00;
+  }
+
+.rectangle_orange{
+  width: 1440px;
+  height: 64px;
+  margin: 8px 0;
+  padding: 6px 478px 5px;
+  opacity: 0.81;
+  background-color: #ff6b00;
+}
+
+.rectangle_rouge{
+  width: 1440px;
+  height: 32px;
+  margin: 8px 0;
+  opacity: 0.81;
+  background-color: #e02020;
+}
+
+.rectangle_violet{
+  width: 1440px;
+  height: 16px;
+  margin: 8px 0;
+  opacity: 0.81;
+  background-color: #b620e0;
+}
+
+.rectangle_bleu{
+  width: 1440px;
+  height: 8px;
+  margin: 8px 0 0;
+  opacity: 0.81;
+  background-color: #6236ff;
+}
 
 body {
   /* Default font family and font color */
@@ -16,11 +57,36 @@ p, li, textarea, label, input, select {
 
 
 h1 {
-   /* Default font, size, and margins */
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 88px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Poppins';
+  padding: 15px;
+  line-height: 1;
+}
+
+.entete__subtitle{
+  margin-top: 6px;
+  margin-bottom: 5px;
+  font-size: 38px;
+  font-weight: 900;
+  color: #ffffff;
+  text-align: right;
+  font-family: 'Poppins';
+}
+
+.header-stripe{
+  margin: 8px 0;
 }
 
 h2 {
-  /* Default font, size, and margins */
+  margin-top: 64px;
+  margin-bottom: 64px;
+  font-size: 40px;
+  text-align: center;
+  font-family: Poppins;
 }
 
 h3 {
@@ -48,6 +114,8 @@ a:hover {
   /* Link color on mouse over */
 }
 
+image : display:block
+margin left ou right : auto
 
 /**
 * ------
