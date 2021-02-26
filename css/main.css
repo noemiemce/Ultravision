@@ -1,9 +1,4 @@
 
-/**
-* -------------
-* Global Styles
-* -------------
-*/
 .rectangle_jaune{
     width: 1440px;
     height: 128px;
@@ -48,6 +43,7 @@
 
 body {
   color:#231f20;
+  margin: auto;
 }
 
 h1 {
@@ -88,6 +84,7 @@ margin-bottom: 100px;
 margin-left: 30px;
 margin-right: 30px;
 color: #231f20;
+
 }
 
 .colonne{
@@ -157,7 +154,7 @@ p{
 }
 
 .ecran2{
-  width: 378px;
+  max-width: 378px;
   height: 486px;
   margin-left: 100px;
   object-fit: contain;
@@ -174,7 +171,7 @@ p{
 
 
 .colonnedroite2{
-  width: 654px;
+width: 654px;
 height: 66px;
 margin-top: -450px;
 font-family: Poppins;
@@ -186,7 +183,6 @@ color: #231f20;
 .paragraphe2{
   float: right;
   display: block;
-
   margin: 32px 14px 32px 32px;
 }
 
@@ -210,7 +206,7 @@ color: #231f20;
 
 
 .droite{
-  margin: -245px 0 7px 693px;
+  margin: -240px 0 7px 693px;
   object-fit: contain;
   opacity: 0.9;
   mix-blend-mode: darken;
@@ -289,8 +285,7 @@ color:white;
 }
 
 .paragrapheblock{
-  width: 487px;
-  height: 66px;
+  max-width: 487px;
   font-family: Poppins;
   font-size: 24px;
   color: white;
@@ -379,6 +374,10 @@ color: white;
    color: #ff6b00;
    font-weight: bold;
    text-align: center;
+}
+
+.game-cover{
+display: block;
 }
 
 
