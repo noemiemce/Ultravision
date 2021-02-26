@@ -50,12 +50,6 @@ body {
   color:#231f20;
 }
 
-p, li, textarea, label, input, select {
-  /* Default font size and line height */
-}
-
-
-
 h1 {
   margin-top: 0px;
   margin-bottom: 5px;
@@ -110,8 +104,7 @@ max-width: 700px;
 }
 
 .ecran1{
-  width: 487px;
-  height: 471px;
+  padding-top: 50px;
   margin-left: 220px;
   object-fit: contain;
   position: absolute;
@@ -120,7 +113,7 @@ max-width: 700px;
 
 .fond1{
   width: 720px;
-  height: 512px;
+  height: 522px;
   margin: 0 0 0 32px;
 }
 
@@ -307,6 +300,7 @@ color:white;
 
 .blockgrille{
   background-color: #231f20;
+  padding-bottom: 597px;
 }
 
 .grilletitre{
@@ -338,35 +332,113 @@ border-radius: 20px;
 }
 
 
+.game{
+  position: relative;
+}
+
+.game-block{
+    padding-top: 32px;
+}
+
+.game-content{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 500ms;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+
+.game-category{
+  margin: 0 81px 8px 82px;
+font-family: Poppins;
+font-size: 14px;
+color: white;
+}
+
+
+.game-title{
+  margin: 8px 0 32px;
+   font-family: Poppins;
+   font-size: 32px;
+   color: #fcce00;
+   font-weight: bold;
+   text-align: center;
+}
+
+.game-title1{
+  margin: 8px 0 32px;
+   font-family: Poppins;
+   font-size: 32px;
+   color: #ff6b00;
+   font-weight: bold;
+   text-align: center;
+}
+
+
+.game-description{
+  margin: 32px 0 0;
+   font-family: Poppins;
+   font-size: 16px;
+   color: white;
+   z-index: 1;
+ }
+
+.game:hover .game-content{
+  opacity: 1;
+  transform: translateY(0);
+  background-color: rgb(0,0,0, 0.75)
+}
+
+.game-description{
+  color: white;
+}
+
+
 .form{
   color: white;
  font-family: Poppins;
  font-size: 16px;
 }
 
-
-a {
-  /* Link color */
+.form-row{
+  margin-top: 20px;
 }
 
-a:hover {
-  /* Link color on mouse over */
+.messageleft{
+  text-align: left;
+  float: right;
+  padding-right: 300px;
 }
 
-image : display:block
-margin left ou right : auto
+.formquestions{
+  text-align: left;
+  float: left;
+  padding-left: 300px;
+}
 
-/**
-* ------
-* Layout
-* ------
-*/
+label{
+display: inline-block;
+margin-bottom: 10px;
+}
 
+input{
+  padding: 8px 175px 7px 8px;
+  border-radius: 8px;
+}
 
+select{
+  padding: 8px 175px 7px 8px;
+  border-radius: 8px;
+}
 
-
-/**
-* ----------
-* Components
-* ----------
-*/
+textarea{
+  border-radius: 8px;
+padding: 8px 9px 15px 8px;
+}
