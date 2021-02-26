@@ -143,13 +143,11 @@ p{
 .paragraphe1{
   width: 640px;
   height: 345px;
-  margin: 34px 31px 30px 0;
+  margin: 34px 31px 0 0;
 }
 
 .bouton1{
   margin-left: 450px;
-  width: 113px;
-  height: 28px;
   font-family: Poppins;
   font-size: 20px;
   font-weight: bold;
@@ -195,15 +193,12 @@ color: #231f20;
 .paragraphe2{
   float: right;
   display: block;
-  width: 640px;
-   height: 184px;
-   margin: 32px 14px 32px 32px;
+
+  margin: 32px 14px 32px 32px;
 }
 
 
 .bouton2{
-  width: 113px;
-  height: 28px;
   font-family: Poppins;
   font-size: 20px;
   font-weight: bold;
@@ -213,20 +208,16 @@ color: #231f20;
 }
 
 .cadre2{
-  width: 185px;
- height: 48px;
  margin: 32px 14px 150px 487px;
  padding: 10px 36px;
- margin-left: 420px;
+ margin-left: 440px;
  border-radius: 15px;
   border: solid 4px #ff6b00;
 }
 
 
 .droite{
-  width: 730px;
-  height: 576px;
-  margin: -220px 0 7px 693px;
+  margin: -245px 0 7px 693px;
   object-fit: contain;
   opacity: 0.9;
   mix-blend-mode: darken;
@@ -239,18 +230,14 @@ text-align: center;
 
 .blocklignered{
   background-image: url(../img/bg-red.png);
-  padding-top: 40px;
-  padding-bottom: 0px;
 }
 
 .blockligneviolet{
   background-image: url(../img/bg-violet.png);
-    padding-top: 40px;
 }
 
 .blocklignebleu{
   background-image: url(../img/bg-blue.png);
-    padding-top: 40px;
 }
 
 h4 {
@@ -264,8 +251,6 @@ h4 {
 
 
 .bouton3{
-  width: 138px;
-  height: 31px;
   font-family: Poppins;
   font-size: 20px;
   font-weight: bold;
@@ -276,63 +261,87 @@ h4 {
 
 
 .cadre3{
-    width: 185px;
-    height: 45px;
     padding: 7px 24px 7px 23px;
     border-radius: 15px;
     border: solid 4px white;
     margin-left: 40px;
 }
 
+
+h5 {
+   margin: 0 81px 8px 82px;
+   font-family: Poppins;
+   font-size: 14px;
+   color:white;
+ }
+
+h6 {
+  margin: 8px 0 32px;
+  font-family: Poppins;
+  font-size: 32px;
+ line-height: 1;
+ color: #fcce00;
+}
+
+.gametext{
+margin: 32px 0 0;
+font-family: Poppins;
+font-size: 16px;
+text-align: center;
+color:white;
+}
+
+.arcade{
+  padding-top: 60px;
+}
+
 .paragrapheblock{
-  color:white;
   width: 487px;
   height: 66px;
   font-family: Poppins;
   font-size: 24px;
+  color: white;
   margin-left: 40px;
+  margin-bottom: 39px;
 }
 
-.itemblock{
+.blockgrille{
   background-color: #231f20;
+}
+
+.grilletitre{
+  color: white;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
   padding-top: 64px;
+}
+
+
+.grille{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 32px;
+  grid-auto-flow: dense;
   padding-left: 34px;
   padding-right: 30px;
-  padding-bottom: 597px;
+  background-color: #231f20;
+}
+
+.cellule,
+.block{
+  padding-top: 32px;
+}
+
+.cellule img{
+border-radius: 20px;
 }
 
 
-.itemtext{
-    width: 316px;
-    height: 56px;
-    margin-bottom: 64px;
-    font-family: Poppins;
-    font-size: 40px;
-    font-weight: 900;
-    color: white;
-    text-align: center; ????????????????????????????????
-}
-
-.colonnespix{
-max-width: 25%;
-}
-
-
-.blockpix{
-  max-width: 320px;
-  max-height: 320px;
-  margin: 32px 32px 32px 32px;
-  object-fit: contain;
-}
-
-
-
-h5 {
-  /* Default font, size, and margins */
-}
-
-h6 {
-  /* Default font, size, and margins */
+.form{
+  color: white;
+ font-family: Poppins;
+ font-size: 16px;
 }
 
 
